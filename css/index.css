@@ -44,9 +44,9 @@ header{
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: coral;
+  background-color: lightgray;
   border-bottom: 1px solid lightcoral;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0.2);
   z-index: 5;
 }
 #header-inner{
@@ -75,8 +75,8 @@ header{
 
 .gnb a{
   font-family: "Montserrat", sans-serif;
-  background-color: peachpuff ;
-  border: 1px solid orangered;
+  background-color: orangered;
+  color: #fff;
   font-weight: 500;
   width: 150px;
   height: 55px;
@@ -118,10 +118,19 @@ main{
 
 .main_title h1{
   font-family: 'Simple';
-  color: #FFC107;
-  font-size: 40px;
+  color: #fff;
+  font-size: 60px;
   padding-top: 10px;
   background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.9) 50%, transparent 100%);
+}
+
+.main_title h2{
+  font-family: 'Simple';
+  font-weight: 400;
+  color: #fff;
+  padding-top: 20px;
+  font-size: 46px;
+  
 
 }
 
@@ -164,13 +173,12 @@ main:hover{
 
 
 .section-left{ /* 왼쪽 박스  */
-  border: 1px solid orangered;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.808);
+  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+  box-shadow: 0 0 5px rgba(0, 0, 0.2);
   width: 600px;
   height: 350px;
   border-radius: 20px;
-  background-color: peachpuff;
   position: relative;
 }
 
@@ -192,7 +200,8 @@ main:hover{
   font-size: 30px;
   font-weight: 600;
   margin: 30px auto;
-  color: rgb(71, 2, 2);
+  /* color: rgb(71, 2, 2); */
+  color: #fff;
   width: max-content;
   padding-bottom: 3px;
   position: relative;
@@ -201,13 +210,13 @@ main:hover{
   margin-top: 10px;
   font-size: 20px;
   border-bottom: none;
-  color: darkred;
+  color: #fff
 }
 
 section .btn1{
-  border: 1px solid orangered;
+  
   background-color: lightyellow;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0.1);
   font-weight: 700;
   margin: auto;
   width: 200px;
@@ -221,10 +230,9 @@ section .btn1{
 }
 
 .section-right{
-  border: 1px solid orangered;
-  background-color: lightyellow;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.808);
+  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+  box-shadow: 0 0 5px rgba(0, 0, 0.2);
   width: 600px;
   height: 350px;
   margin: 50px;
@@ -342,7 +350,7 @@ section .btn1{
 
 h4{ /* 내 보상 진행도 */
   font-family: 'Roboto', sans-serif;
-  background-color: orangered;
+  background-color: rgb(71, 2, 2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 50px;
@@ -454,14 +462,15 @@ h4{ /* 내 보상 진행도 */
 }
 
 .btn-11{ /* 실시간거래 */
-  border: 2px solid orangered;
-  background-color: lightyellow;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.897);
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0.2);
   border-radius: 10px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   margin: auto;
-  width: 200px;
-  height: 80px;
+  width: 230px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -470,14 +479,15 @@ h4{ /* 내 보상 진행도 */
 }
 
 .btn-22{ /* 빠른가입 */
-  border: 2px solid orangered;
-  background-color: lightyellow;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.897);
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0.2);
   border-radius: 10px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   margin: auto;
-  width: 200px;
-  height: 80px;
+  width: 230px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -485,14 +495,15 @@ h4{ /* 내 보상 진행도 */
   transition: 0.35s;
 }
 .btn-33{ /* 보안보장 */
-  border: 2px solid orangered;
-  background-color: lightyellow;
+  background-color: rgba(0, 0, 0, 0.897);
+  color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   margin: auto;
-  width: 200px;
-  height: 80px;
+  width: 230px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,7 +516,6 @@ h4{ /* 내 보상 진행도 */
 .btnmid3{ 
   background-color: #B71C1C;
   border-radius: 5px;
-  box-shadow: 0, 0, 0, 0.5 rgba(0, 0, 0, 0.8);
   color: #fff;
   width: 700px;
   height: 150px;
@@ -559,8 +569,9 @@ h4{ /* 내 보상 진행도 */
   }
 
 h5{ /* 혜택서비스 수수료안내 시장동향  */
-  font-weight: 500;
-  background-color: darkred;
+  font-weight: 700;
+  background-color: #4F46E5;
+  border: 1px solid #000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   color: #fff;
   border-radius: 50px;
@@ -600,8 +611,8 @@ h5{ /* 혜택서비스 수수료안내 시장동향  */
 }
 
 .cp1{ /* 쿠폰받기 */
-  background-color: #C62828;
-  color: #fff;
+  background-color: #A78BFA;
+  color: #000;
   font-weight: 600;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -616,8 +627,8 @@ h5{ /* 혜택서비스 수수료안내 시장동향  */
   transition: 0.35s;
 }
 .cp2{ /* 이용안내 */
-  background-color: #C62828;
-  color: #fff;
+  background-color: lightblue;
+  color: #000;
   font-weight: 600;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -790,11 +801,31 @@ h5{ /* 혜택서비스 수수료안내 시장동향  */
 
 
 /* Footer */
+
+
+
 footer{
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  background-color: #b6b5b5;
+  background-color: #999;
   height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+address .logo img{
+  
+  display: flex;
+  top: -10px;
+  left: 50px;
+  width: 200px;
+  position: absolute;
 }
 
 address{
@@ -805,7 +836,6 @@ address{
 }
 
 .foot{
-
 width: 400px;
 display: flex;
 justify-content: center;
@@ -815,7 +845,9 @@ line-height:30px;
 position: relative;
 }
 
-ul img{
+.foot img{
+  top: 0;
+  left: 0;
   width: 30px;
   height: 30px;
   position: absolute;
@@ -830,7 +862,7 @@ justify-content: center;
 align-items: center;
 margin: auto;
 padding-left: 30px;
-line-height:30px;
+line-height: 30px;
 position: relative;
 }
 
@@ -845,7 +877,7 @@ position: relative;
 }
 
 .foot2{
-margin: auto;
+margin: auto 80px;
 color: darkred;
 line-height: 35px;
 }
@@ -856,8 +888,8 @@ line-height: 35px;
 
 .section1 .btn1:hover{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: orangered;
-  color: #ffffff;
+  background-color: gold;
+  color: #000;
 }
 
 .section-right a:hover{
@@ -871,42 +903,43 @@ line-height: 35px;
   width: 55%;
 }
 
+
+
 .btnmid1:hover{
-  background: linear-gradient(145deg, darkred);
+  background: linear-gradient(145deg, #fff, #fff);
   box-shadow:  2px 2px 30px orangered,
         -2px -2px 30px #ffffff;
-  color: #ffffff;
+  color: #000;
 }
 
 .btnmid2 .btn-11:hover{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: orangered;
-  color: #ffffff;}
+  background-color: blueviolet;
+  color: #fff;}
 
   .btnmid2 .btn-22:hover{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: orangered;
+  background-color: blueviolet;
   color: #ffffff;}
 
   .btnmid2 .btn-33:hover{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  background-color: orangered;
+  background-color: blueviolet;
   color: #ffffff;}
 
   .btnmid3:hover{
-    background: linear-gradient(145deg, darkred);
-  box-shadow: 2px 2px 50px orangered,
+    background: linear-gradient(145deg, darkred, darkred);
+  box-shadow: 20px 20px 50px #fff,
   -2px -2px 50px #ffffff;
     color: #fff;
-    color: #fffff;
   }
 
   .btn-4 .cp1:hover{
-    background-color: #A31515;
+    background-color: #8B5CF6;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
   .btn-4 .cp2:hover{
-    background-color: #A31515;
+    background-color: #0EA5E9;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
 
