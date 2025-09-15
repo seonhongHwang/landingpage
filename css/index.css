@@ -44,7 +44,7 @@ header{
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: lightgray;
+  background-color: #fff;
   border-bottom: 1px solid lightcoral;
   box-shadow: 0 5px 5px rgba(0, 0, 0.2);
   z-index: 5;
@@ -807,7 +807,7 @@ h5{ /* 혜택서비스 수수료안내 시장동향  */
 footer{
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  background-color: #999;
+  background-color: lightgray;
   height: 150px;
   width: 100%;
   display: flex;
